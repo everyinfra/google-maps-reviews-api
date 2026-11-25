@@ -76,7 +76,7 @@ Custom connectors in Claude on the web and desktop, and ChatGPT, accept only a U
 - Billing is per call, about $0.0014 each. Failed calls, empty results, parameter errors, and authentication failures are not charged.
 - Each page fetched with `--pages` counts as one call.
 - A new account gets a $1 trial allowance, valid for 24 hours. No credit card is needed. How to claim it: <https://everyinfra.com/en/pricing?utm_source=github&utm_medium=example_repo&utm_campaign=google-maps-reviews-api>
-- Prices for the other 1 Google Maps Reviews capabilities are on the platform page: <https://everyinfra.com/en/google-maps-reviews-api?utm_source=github&utm_medium=example_repo&utm_campaign=google-maps-reviews-api>
+- Prices for the 1 other Google Maps Reviews capability are on the platform page: <https://everyinfra.com/en/google-maps-reviews-api?utm_source=github&utm_medium=example_repo&utm_campaign=google-maps-reviews-api>
 
 ### Fields
 
@@ -196,7 +196,7 @@ All parameters and fields: <https://everyinfra.com/en/google-maps-reviews-api/co
 
 ### FAQ
 
-**Do I need a Google Maps Reviews account or cookie to call the API?**
+**Do I need a Google account or cookie to call the API?**
 
 No. Send the `Authorization: Bearer` header with your API key. The request body holds `platform`, `action`, and the capability parameters. You do not scan a QR code, keep a login session, or open a browser.
 
@@ -237,7 +237,7 @@ Before release, we ran the 4 commands in Quick start against the live API with t
 
 ## 中文
 
-本仓库用 Python 或 curl 读谷歌地图点评公开数据：按关键词搜商户和地点，读商户资料（地址、电话、营业时间、评分）和用户评论，再看某位点评人写过的全部评论。只需一把 EveryInfra API Key，不用谷歌账号和 Cookie，也能作为 MCP 工具接进 Claude、Cursor。按调用次数计费，这 4 个能力每千次 $1.39（每次约 $0.0014），失败和空结果不收费。谷歌地图点评共 5 个能力：<https://everyinfra.com/google-maps-reviews-api?utm_source=github&utm_medium=example_repo&utm_campaign=google-maps-reviews-api>
+本仓库用 Python 或 curl 读谷歌地图点评公开数据：按关键词搜商户和地点，读商户资料（地址、电话、营业时间、评分）和用户评论，再看某位点评人写过的全部评论。只需一把 EveryInfra API Key，不用 Google 账号和 Cookie，也能作为 MCP 工具接进 Claude、Cursor。按调用次数计费，这 4 个能力每千次 $1.39（每次约 $0.0014），失败和空结果不收费。谷歌地图点评共 5 个能力：<https://everyinfra.com/google-maps-reviews-api?utm_source=github&utm_medium=example_repo&utm_campaign=google-maps-reviews-api>
 
 ### 快速开始
 
@@ -429,7 +429,7 @@ Claude 网页版和桌面版的自定义连接器、ChatGPT 只能填网址：�
 
 ### 常见问题
 
-**调用时要不要提供谷歌地图点评账号或 Cookie？**
+**调用时要不要提供 Google 账号或 Cookie？**
 
 不用，请求头带 `Authorization: Bearer` 和 API Key 就能调，请求体写 `platform`、`action` 和能力参数。不用扫码、维护登录状态，也不用开浏览器。
 
